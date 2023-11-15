@@ -6,7 +6,7 @@ import { ThemeProvider } from 'next-themes'
 const Providers = ({children}) => {
   return (
     <ThemeProvider enableSystem={true} atrribute="class">
-      <div className='dark:bg-gray-700 dark:text-gray-200 text-gray-700 transition-colors duration-3000 min-h-screen select-none'>
+      <div className='dark:bg-gray-700 dark:text-gray-200 transition-colors duration-3000 min-h-screen select-none'>
         {children} 
       </div>
       
